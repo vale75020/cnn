@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#up {
+    width: 100%;
+    background-color: #333;
+ }
+
+#menu {
+    width: 76%;
+    margin: 0px auto;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 2px;
+    text-decoration: none;
+    float: left;
+    font-size: 1.2em;
+    line-height: 1.6;
+    letter-spacing: -.02px;
+    height: 30px;
+}
+
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.rect {
+    display: flex;
+    flex-direction: row;
+    width: 76%;
+    margin: 40px auto;
+    justify-content: space-between;
+
+}
+
+.pt1 {
+    width: 40%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pt2 {
+    width: 29%;
+    height: 600px;
+
+}
+
+.pt3 {
+    width: 29%;
+    height: 600px;
+
+}
+
+.pt1 a {
+    height: 25%;
+    width: 100%;
+    padding: 5px 0px;
+    text-decoration: none;
+    font-size: 55px;
+    color: #333;
+    text-align: center;
+
+}
+
+.pt1 #image1 {
+    height: 75%;
+    width: 100%;
+    padding: 5px 0px;
+}
+
+
+.pt1 a:hover {
+    color: : red;
+}
+
+h3 {
+    font-size: 1.4em;
+    font-weight: bolder;
+    background-color:#F2F2F2; 
+}
+
+
+
+.pt2 a {
+
+    font-family: CNN, Helvetica Neue, Helvetica, Arial, Utkal, sans-serif;
+    font-weight: 400;
+    vertical-align: middle;
+    font-size: .9333333333em;
+    line-height: 20px;
+    padding: 5px 0px;
+    text-decoration: none;
+    color: #333;
+    text-align: left;
+    width: auto;
+    height: auto
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.pt31 {
+    width: 100%;
+    height: auto;
+    margin-top: 1.6em;
+    margin-bottom: 1.6em;
+
+}
+
+.pt3 a {
+
+    font-family: CNN, Helvetica Neue, Helvetica, Arial, Utkal, sans-serif;
+    font-weight: 400;
+    vertical-align: middle;
+    font-size: 1.3em;
+    line-height: 20px;
+    padding: 5px 0px;
+    text-decoration: none;
+    color: #333;
+    text-align: left;
+    width: auto;
+    height: auto;
+    
+
+}
+
+/*fin premier section*/
+
+.pt4 {
+     width: 29%;
+    height: 600px;
+}
+
+.pt4 a {
+
+    font-family: CNN, Helvetica Neue, Helvetica, Arial, Utkal, sans-serif;
+    font-weight: 400;
+    vertical-align: middle;
+    font-size: .9333333333em;
+    line-height: 20px;
+    padding: 5px 0px;
+    text-decoration: none;
+    color: #333;
+    text-align: left;
+    width: auto;
+    height: auto
+}
+
+.pt5 {
+    width: 40%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pt5 a {
+
+    font-family: CNN, Helvetica Neue, Helvetica, Arial, Utkal, sans-serif;
+    font-weight: 400;
+    vertical-align: middle;
+    font-size: 1.4em;
+    
+    padding: 5px 0px;
+    text-decoration: none;
+    color: #333;
+    text-align: left;
+    width: auto;
+    height: auto;
+  }
+
+.pt6  {
+     width: 29%;
+    height: 600px;
+}
+
+.pt6 a {
+
+    font-family: CNN, Helvetica Neue, Helvetica, Arial, Utkal, sans-serif;
+    font-weight: 400;
+    vertical-align: middle;
+    font-size: .9333333333em;
+    line-height: 20px;
+    padding: 5px 0px;
+    text-decoration: none;
+    color: #333;
+    text-align: left;
+    width: auto;
+    height: auto
+}
+
+
+/*fin deuxieme section*/
+
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    width: 76%;
+    margin: 130px auto;
+    justify-content: space-between;
+
+}
+
+.pt7 {
+    width: 32%;
+    height: auto;
+    
+}
+
+/* fin troisieme section */
+
+section1 {
+    display: flex;
+    flex-direction: column;
+    width: 76%;
+    margin: 180px auto 0px auto;
+    justify-content: space-between;
+
+}
+
+.vid{display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    
+    
+}
+
+.vid1 {
+    width: 250px;
+    height: auto;
+}
+
+/* fin quatrieme section*/
+
+
+.vid2{display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+}
+    .vid3 {
+    width: 300px;
+    height: auto;
+}
+    
+/*fin cinquieme section*/
+
+
+.foo {
+     display: flex;
+    flex-direction: row;
+    width: 76%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: auto;
+    margin: auto;
+    justify-content: space-between;
+    
+    
+}
+
+.foot1 {
+    width: 150px;
+    height: auto;
+    text-align: left;
+    font-size: 15px;
+}
+
+footer ul {
+    display: inline-block;
+   
+}   
+
+
+footer ul li a{
+     color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
